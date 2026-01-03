@@ -6,6 +6,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+}
 section {
     width: 80%;
     margin: auto;
@@ -63,3 +64,4 @@ section {
     padding: 30px;
 
 }
+
