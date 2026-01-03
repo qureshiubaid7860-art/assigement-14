@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.a {
+    background-color: green;
+    padding: 30px;
+    grid-area: 1 /1/4/2;
+
+}
+
+.b {
+    background-color: green;
+    padding: 30px;
+    grid-area: 1/2/1/4;
+}
+
+.c {
+    background-color: red;
+    padding: 30px;
+    
+}
+
+.d {
+    background-color: orangered;
+    padding: 30px;
+    
+}
+
+.e {
+    background-color: red;
+    padding: 30px;
+  
+}
+
+.f {
+    background-color: green;
+    padding: 30px;
+    grid-row: 2/4;
+    grid-column: 4/4;
+     
+}
+
+.g {
+    background-color: red;
+    padding: 30px;
+}
+
+.h {
+    background-color: orangered;
+    padding: 30px;
+}
