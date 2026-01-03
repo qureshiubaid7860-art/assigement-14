@@ -8,6 +8,7 @@ body{
     align-items:center;
     height:100vh;
 }
+
 section {
     width: 80%;
     margin: auto;
@@ -63,7 +64,4 @@ section {
 .h {
     background-color: orangered;
     padding: 30px;
-
 }
-
-
